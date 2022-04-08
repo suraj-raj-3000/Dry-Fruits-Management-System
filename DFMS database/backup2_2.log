@@ -1,0 +1,335 @@
+;;; 
+Export: Release 10.2.0.1.0 - Production on Friday, 20 September, 2019 7:18:29
+
+Copyright (c) 2003, 2005, Oracle.  All rights reserved.
+;;; 
+Connected to: Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Starting "LNT"."SYS_EXPORT_FULL_01":  lnt/******** DIRECTORY=full_export DUMPFILE=backup.dmp LOGFILE=backup2.log Full=Y; 
+Estimate in progress using BLOCKS method...
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/TABLE_DATA
+Total estimation using BLOCKS method: 29.56 MB
+Processing object type DATABASE_EXPORT/TABLESPACE
+Processing object type DATABASE_EXPORT/SYS_USER/USER
+Processing object type DATABASE_EXPORT/SCHEMA/USER
+Processing object type DATABASE_EXPORT/ROLE
+Processing object type DATABASE_EXPORT/GRANT/SYSTEM_GRANT/PROC_SYSTEM_GRANT
+Processing object type DATABASE_EXPORT/SCHEMA/GRANT/SYSTEM_GRANT
+Processing object type DATABASE_EXPORT/SCHEMA/ROLE_GRANT
+Processing object type DATABASE_EXPORT/SCHEMA/DEFAULT_ROLE
+Processing object type DATABASE_EXPORT/SCHEMA/TABLESPACE_QUOTA
+Processing object type DATABASE_EXPORT/RESOURCE_COST
+Processing object type DATABASE_EXPORT/SCHEMA/DB_LINK
+Processing object type DATABASE_EXPORT/TRUSTED_DB_LINK
+Processing object type DATABASE_EXPORT/SCHEMA/SEQUENCE/SEQUENCE
+Processing object type DATABASE_EXPORT/SCHEMA/SEQUENCE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type DATABASE_EXPORT/DIRECTORY/DIRECTORY
+Processing object type DATABASE_EXPORT/DIRECTORY/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type DATABASE_EXPORT/DIRECTORY/GRANT/CROSS_SCHEMA/OBJECT_GRANT
+Processing object type DATABASE_EXPORT/CONTEXT
+Processing object type DATABASE_EXPORT/SCHEMA/PUBLIC_SYNONYM/SYNONYM
+Processing object type DATABASE_EXPORT/SCHEMA/SYNONYM
+Processing object type DATABASE_EXPORT/SCHEMA/TYPE/TYPE_SPEC
+Processing object type DATABASE_EXPORT/SCHEMA/TYPE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type DATABASE_EXPORT/SYSTEM_PROCOBJACT/PRE_SYSTEM_ACTIONS/PROCACT_SYSTEM
+Processing object type DATABASE_EXPORT/SYSTEM_PROCOBJACT/POST_SYSTEM_ACTIONS/PROCACT_SYSTEM
+Processing object type DATABASE_EXPORT/SCHEMA/PROCACT_SCHEMA
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/TABLE
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/PRE_TABLE_ACTION
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/GRANT/CROSS_SCHEMA/OBJECT_GRANT
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/INDEX/INDEX
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/COMMENT
+Processing object type DATABASE_EXPORT/SCHEMA/PACKAGE/PACKAGE_SPEC
+Processing object type DATABASE_EXPORT/SCHEMA/PACKAGE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type DATABASE_EXPORT/SCHEMA/FUNCTION/FUNCTION
+Processing object type DATABASE_EXPORT/SCHEMA/FUNCTION/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type DATABASE_EXPORT/SCHEMA/PROCEDURE/PROCEDURE
+Processing object type DATABASE_EXPORT/SCHEMA/PROCEDURE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type DATABASE_EXPORT/SCHEMA/FUNCTION/ALTER_FUNCTION
+Processing object type DATABASE_EXPORT/SCHEMA/PROCEDURE/ALTER_PROCEDURE
+Processing object type DATABASE_EXPORT/SCHEMA/VIEW/VIEW
+Processing object type DATABASE_EXPORT/SCHEMA/VIEW/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type DATABASE_EXPORT/SCHEMA/VIEW/GRANT/CROSS_SCHEMA/OBJECT_GRANT
+Processing object type DATABASE_EXPORT/SCHEMA/VIEW/COMMENT
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type DATABASE_EXPORT/SCHEMA/PACKAGE_BODIES/PACKAGE/PACKAGE_BODY
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/STATISTICS/TABLE_STATISTICS
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/POST_TABLE_ACTION
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/TRIGGER
+Processing object type DATABASE_EXPORT/SCHEMA/JOB
+Processing object type DATABASE_EXPORT/SCHEMA/POST_SCHEMA/PROCACT_SCHEMA
+. . exported "FLOWS_020100"."WWV_FLOW_DICTIONARY$"       2.908 MB   70601 rows
+. . exported "FLOWS_020100"."WWV_FLOW_PAGE_PLUGS"        2.343 MB    5305 rows
+. . exported "FLOWS_020100"."WWV_FLOW_STEP_ITEMS"        2.131 MB    5722 rows
+. . exported "FLOWS_020100"."WWV_FLOW_REGION_REPORT_COLUMN"  849.0 KB    6052 rows
+. . exported "FLOWS_020100"."WWV_FLOW_ACTIVITY_LOG1$"    9.148 KB       1 rows
+. . exported "FLOWS_020100"."WWV_FLOW_ACTIVITY_LOG2$"    12.02 KB      39 rows
+. . exported "FLOWS_020100"."WWV_FLOW_STEP_PROCESSING"   663.1 KB    1251 rows
+. . exported "FLOWS_020100"."WWV_FLOW_STEP_ITEM_HELP"    680.7 KB    4237 rows
+. . exported "FLOWS_020100"."WWV_FLOW_STEPS"             341.0 KB    1253 rows
+. . exported "FLOWS_020100"."WWV_FLOW_LIST_TEMPLATES"       42 KB      59 rows
+. . exported "FLOWS_020100"."WWV_FLOW_LIST_ITEMS"        409.7 KB    2120 rows
+. . exported "FLOWS_020100"."WWV_FLOW_STEP_BUTTONS"      391.5 KB    2487 rows
+. . exported "FLOWS_020100"."WWV_FLOW_STEP_VALIDATIONS"  402.4 KB    1376 rows
+. . exported "FLOWS_020100"."WWV_FLOW_STEP_BRANCHES"     339.5 KB    2348 rows
+. . exported "FLOWS_020100"."WWV_FLOW_CUSTOM_AUTH_SETUPS"  16.60 KB       7 rows
+. . exported "FLOWS_020100"."WWV_FLOW_LIST_OF_VALUES_DATA"  273.6 KB    2632 rows
+. . exported "FLOWS_020100"."WWV_FLOW_MESSAGES$"         258.2 KB    2832 rows
+. . exported "FLOWS_020100"."WWV_FLOW_ROW_TEMPLATES"     49.41 KB      34 rows
+. . exported "FLOWS_020100"."WWV_FLOW_TEMPLATES"         105.8 KB      43 rows
+. . exported "FLOWS_020100"."WWV_FLOW_PAGE_PLUG_TEMPLATES"  53.01 KB      88 rows
+. . exported "FLOWS_020100"."WWV_FLOW_LISTS_OF_VALUES$"  152.9 KB     670 rows
+. . exported "FLOWS_020100"."WWV_FLOW_STEP_COMPUTATIONS"  191.0 KB     665 rows
+. . exported "FLOWS_020100"."WWV_FLOW_MENU_OPTIONS"      120.1 KB    1003 rows
+. . exported "FLOWS_020100"."WWV_FLOW_BUTTON_TEMPLATES"  19.53 KB      24 rows
+. . exported "FLOWS_020100"."WWV_FLOW_PAGE_GENERIC_ATTR"  15.46 KB     176 rows
+. . exported "FLOWS_020100"."WWV_FLOW_PROCESSING"        40.03 KB      34 rows
+. . exported "FLOWS_020100"."WWV_FLOW_REGION_CHART_SER_ATTR"  24.84 KB       6 rows
+. . exported "FLOWS_020100"."WWV_FLOW_SHORTCUTS"         20.30 KB      25 rows
+. . exported "FLOWS_020100"."WWV_FLOW_SW_SQL_CMDS"       6.953 KB       5 rows
+. . exported "FLOWS_020100"."WWV_COLUMN_EXCEPTIONS"      5.695 KB       3 rows
+. . exported "FLOWS_020100"."WWV_FLOWS"                  43.89 KB       7 rows
+. . exported "FLOWS_020100"."WWV_FLOW_ACTIVITY_LOG_NUMBER$"  5.289 KB       1 rows
+. . exported "FLOWS_020100"."WWV_FLOW_ALTERNATE_CONFIG"  6.851 KB       2 rows
+. . exported "FLOWS_020100"."WWV_FLOW_ALT_CONFIG_DETAIL"  8.015 KB      10 rows
+. . exported "FLOWS_020100"."WWV_FLOW_ALT_CONFIG_PICK"   7.929 KB      37 rows
+. . exported "FLOWS_020100"."WWV_FLOW_BANNER"            8.039 KB       7 rows
+. . exported "FLOWS_020100"."WWV_FLOW_BUILDER_AUDIT_TRAIL"  8.328 KB       7 rows
+. . exported "FLOWS_020100"."WWV_FLOW_CALS"              12.28 KB       3 rows
+. . exported "FLOWS_020100"."WWV_FLOW_CAL_TEMPLATES"     17.15 KB       4 rows
+. . exported "FLOWS_020100"."WWV_FLOW_CHARSETS"          7.218 KB      28 rows
+. . exported "FLOWS_020100"."WWV_FLOW_CLICKTHRU_LOG_NUMBER$"  5.609 KB       1 rows
+. . exported "FLOWS_020100"."WWV_FLOW_COMPANIES"         6.296 KB       3 rows
+. . exported "FLOWS_020100"."WWV_FLOW_COMPANY_SCHEMAS"   5.937 KB       2 rows
+. . exported "FLOWS_020100"."WWV_FLOW_COMPANY_TYPES"     6.320 KB      32 rows
+. . exported "FLOWS_020100"."WWV_FLOW_COMPUTATIONS"      12.39 KB      11 rows
+. . exported "FLOWS_020100"."WWV_FLOW_COUNTRIES"         9.640 KB     240 rows
+. . exported "FLOWS_020100"."WWV_FLOW_DB_AUTH"           5.296 KB       2 rows
+. . exported "FLOWS_020100"."WWV_FLOW_DEVELOPERS"        7.296 KB       2 rows
+. . exported "FLOWS_020100"."WWV_FLOW_DEVELOPER_ROLES"   5.734 KB       9 rows
+. . exported "FLOWS_020100"."WWV_FLOW_DUAL100"           5.609 KB     100 rows
+. . exported "FLOWS_020100"."WWV_FLOW_FIELD_TEMPLATES"   14.53 KB      22 rows
+. . exported "FLOWS_020100"."WWV_FLOW_FND_USER"          16.03 KB       2 rows
+. . exported "FLOWS_020100"."WWV_FLOW_HNT_COLUMN_INFO"   20.68 KB      58 rows
+. . exported "FLOWS_020100"."WWV_FLOW_HNT_TABLE_INFO"    8.445 KB       8 rows
+. . exported "FLOWS_020100"."WWV_FLOW_ICON_BAR"          16.83 KB      12 rows
+. . exported "FLOWS_020100"."WWV_FLOW_ITEMS"             12.15 KB      57 rows
+. . exported "FLOWS_020100"."WWV_FLOW_LANGUAGES"         15.40 KB     132 rows
+. . exported "FLOWS_020100"."WWV_FLOW_LANGUAGE_MAP"      12.35 KB      63 rows
+. . exported "FLOWS_020100"."WWV_FLOW_LISTS"             35.17 KB     382 rows
+. . exported "FLOWS_020100"."WWV_FLOW_LOV_VALUES"        8.023 KB       6 rows
+. . exported "FLOWS_020100"."WWV_FLOW_MENUS"             6.992 KB       5 rows
+. . exported "FLOWS_020100"."WWV_FLOW_MENU_TEMPLATES"    11.76 KB       6 rows
+. . exported "FLOWS_020100"."WWV_FLOW_PAGE_GROUPS"       12.23 KB      80 rows
+. . exported "FLOWS_020100"."WWV_FLOW_PATCHES"           9.617 KB      13 rows
+. . exported "FLOWS_020100"."WWV_FLOW_PICK_DATABASE_SIZE"  5.664 KB       4 rows
+. . exported "FLOWS_020100"."WWV_FLOW_PICK_END_USERS"    5.742 KB       4 rows
+. . exported "FLOWS_020100"."WWV_FLOW_PICK_PAGE_VIEWS"   5.820 KB       5 rows
+. . exported "FLOWS_020100"."WWV_FLOW_PLATFORM_PREFS"    7.453 KB      12 rows
+. . exported "FLOWS_020100"."WWV_FLOW_POPUP_LOV_TEMPLATE"  24.28 KB       7 rows
+. . exported "FLOWS_020100"."WWV_FLOW_PREFERENCES$"      6.359 KB       2 rows
+. . exported "FLOWS_020100"."WWV_FLOW_PROVISION_COMPANY"  16.63 KB       1 rows
+. . exported "FLOWS_020100"."WWV_FLOW_QUERY_COLUMN"      8.742 KB      15 rows
+. . exported "FLOWS_020100"."WWV_FLOW_QUERY_CONDITION"   8.484 KB       5 rows
+. . exported "FLOWS_020100"."WWV_FLOW_QUERY_DEFINITION"  6.960 KB       5 rows
+. . exported "FLOWS_020100"."WWV_FLOW_QUERY_OBJECT"      7.476 KB       5 rows
+. . exported "FLOWS_020100"."WWV_FLOW_REGION_UPD_RPT_COLS"  31.08 KB     359 rows
+. . exported "FLOWS_020100"."WWV_FLOW_RESTRICTED_SCHEMAS"  7.562 KB      41 rows
+. . exported "FLOWS_020100"."WWV_FLOW_SECURITY_SCHEMES"  13.35 KB      16 rows
+. . exported "FLOWS_020100"."WWV_FLOW_SW_CREATE_KEYWORDS"  6.406 KB      10 rows
+. . exported "FLOWS_020100"."WWV_FLOW_SW_MAIN_KEYWORDS"  10.39 KB     199 rows
+. . exported "FLOWS_020100"."WWV_FLOW_SW_SET_KEYWORDS"   6.289 KB       4 rows
+. . exported "FLOWS_020100"."WWV_FLOW_SW_SQLPLUS_CMD"    5.007 KB       8 rows
+. . exported "FLOWS_020100"."WWV_FLOW_TABS"              11.33 KB       1 rows
+. . exported "FLOWS_020100"."WWV_FLOW_THEMES"            14.70 KB       7 rows
+. . exported "FLOWS_020100"."WWV_FLOW_TOPLEVEL_TABS"     11.20 KB       4 rows
+. . exported "FLOWS_020100"."WWV_FLOW_TRANSLATABLE_COLS$"  19.71 KB     125 rows
+. . exported "FLOWS_020100"."WWV_FLOW_TREES"             21.35 KB       2 rows
+. . exported "FLOWS_020100"."WWV_FLOW_UPGRADE_PROGRESS"   8.75 KB      15 rows
+. . exported "FLOWS_020100"."WWV_FLOW_UPG_TAB_NAME_CHANGES"  8.406 KB      42 rows
+. . exported "FLOWS_020100"."WWV_FLOW_UPG_TAB_OBSOLETE"  6.195 KB      17 rows
+. . exported "HR"."COUNTRIES"                            6.093 KB      25 rows
+. . exported "HR"."DEPARTMENTS"                          6.640 KB      27 rows
+. . exported "HR"."EMPLOYEES"                            15.77 KB     107 rows
+. . exported "HR"."JOBS"                                 6.609 KB      19 rows
+. . exported "HR"."JOB_HISTORY"                          6.585 KB      10 rows
+. . exported "HR"."LOCATIONS"                            7.710 KB      23 rows
+. . exported "HR"."REGIONS"                              5.296 KB       4 rows
+. . exported "LNT"."BRANDSNO"                            4.929 KB       1 rows
+. . exported "LNT"."CONTACT"                             5.601 KB       2 rows
+. . exported "LNT"."CUSTOMER_DETAIL"                     8.664 KB       3 rows
+. . exported "LNT"."CUSTOMER_ORDERED_PRODUCT"            8.031 KB       3 rows
+. . exported "LNT"."CUSTOMER_ORDER_DETAIL"               8.695 KB       3 rows
+. . exported "LNT"."INVOICE_DETAIL"                      8.015 KB       8 rows
+. . exported "LNT"."INVOICE_PRODUCT_AMOUNT"              7.039 KB       3 rows
+. . exported "LNT"."INVOICE_PRODUCT_DETAIL"              9.132 KB       3 rows
+. . exported "LNT"."LOGIN"                               6.929 KB       2 rows
+. . exported "LNT"."ORDERED_PRODUCT"                     8.359 KB       3 rows
+. . exported "LNT"."ORDERED_PRODUCT_AMOUNT"              6.070 KB       3 rows
+. . exported "LNT"."ORDERSNO"                            4.953 KB       4 rows
+. . exported "LNT"."ORDER_DETAIL"                        7.359 KB       3 rows
+. . exported "LNT"."PRODUCT_BRAND"                       6.648 KB       3 rows
+. . exported "LNT"."PRODUCT_DETAIL"                      6.414 KB       6 rows
+. . exported "LNT"."PRPSNO"                              4.945 KB       3 rows
+. . exported "LNT"."PURCHASE_INVOICE"                    6.273 KB       3 rows
+. . exported "LNT"."PURCHASE_RETURN"                     7.234 KB       2 rows
+. . exported "LNT"."PURCHASE_RETURN_PRODUCT"             8.289 KB       2 rows
+. . exported "LNT"."SELL_PRODUCT"                        8.781 KB       8 rows
+. . exported "LNT"."SELL_RETURN"                         7.265 KB       3 rows
+. . exported "LNT"."SELL_RETURN_PRODUCT"                 8.367 KB       3 rows
+. . exported "LNT"."STOCK_DETAIL"                        7.429 KB       6 rows
+. . exported "LNT"."SUPPLIERSNO"                         4.945 KB       3 rows
+. . exported "LNT"."SUPPLIER_ACCOUNT"                    6.601 KB       2 rows
+. . exported "LNT"."SUPPLIER_DETAIL"                     7.242 KB       2 rows
+. . exported "LNT"."SUPPLIER_PRODUCT"                     6.25 KB       2 rows
+. . exported "LNT"."SUPPLIER_PRODUCT_BRAND"              6.234 KB       2 rows
+. . exported "SYSTEM"."LOGIN"                            5.242 KB       1 rows
+. . exported "SYSTEM"."REPCAT$_AUDIT_ATTRIBUTE"          5.960 KB       2 rows
+. . exported "SYSTEM"."REPCAT$_OBJECT_TYPES"             6.515 KB      28 rows
+. . exported "SYSTEM"."REPCAT$_RESOLUTION_METHOD"        5.656 KB      19 rows
+. . exported "SYSTEM"."REPCAT$_TEMPLATE_STATUS"          5.304 KB       3 rows
+. . exported "SYSTEM"."REPCAT$_TEMPLATE_TYPES"           5.921 KB       2 rows
+. . exported "SYSTEM"."SUPPLIER_DETAIL"                  4.945 KB       2 rows
+. . exported "FLOWS_020100"."WWV_FLOWS_RESERVED"             0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_APPLICATION_TABS"      0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_APPLICATION_TAB_SETS"      0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_CLICKTHRU_LOG$"        0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_CLICKTHRU_LOG2$"       0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_COLLECTIONS$"          0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_COLLECTION_MEMBERS$"      0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_COMPOUND_CONDITIONS"      0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_CSS_REPOSITORY"        0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_CUSTOMIZED_TASKS"      0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_DATA"                  0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_DATA_LOAD_BAD_LOG"      0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_DATA_LOAD_UNLOAD"      0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_DYNAMIC_TRANSLATIONS$"      0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_EFFECTIVE_USERID_MAP"      0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_ENTRY_POINTS"          0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_ENTRY_POINT_ARGS"      0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_FEEDBACK"              0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_FILE_OBJECTS$PART"      0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_FND_GROUP_USERS"       0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_FND_USER_GROUPS"       0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_HNT_ARGUMENT_INFO"      0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_HNT_LOV_DATA"          0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_HNT_PROCEDURE_INFO"      0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_HTML_REPOSITORY"       0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_ICON_BAR_ATTRIBUTES"      0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_IMAGE_REPOSITORY"      0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_IMPORT_EXPORT"         0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_JOBS"                  0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_JOB_BIND_VALUES"       0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_LOCK_PAGE"             0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_LOCK_PAGE_LOG"         0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_MAIL_LOG"              0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_MAIL_QUEUE"            0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_MODELS"                0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_MODEL_PAGES"           0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_MODEL_PAGE_COLS"       0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_ONLINE_HELP"           0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_ONLINE_HELP_JA"        0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_PAGES_RESERVED"        0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_PAGE_SUBMISSIONS"      0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_PLATFORM_PREF"         0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_PROVISION_SERICE_MOD"      0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_PURGED_SESSIONS$"      0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_QB_SAVED_COND"         0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_QB_SAVED_JOIN"         0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_QB_SAVED_QUERY"        0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_QB_SAVED_TABS"         0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_REGION_REPORT_FILTER"      0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_REQUIRED_ROLES"        0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_RSCHEMA_EXCEPTIONS"      0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_SC_TRANS"              0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_SESSIONS$"             0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_SHARED_WEB_SERVICES"      0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_SHORTCUT_USAGE_MAP"      0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_STEP_BRANCH_ARGS"      0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_SW_BINDS"              0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_SW_DETAIL_RESULTS"      0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_SW_RESULTS"            0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_SW_STMTS"              0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_TEMPLATES$"            0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_TEMPLATE_PREFERENCES"      0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_TEMPLATE_THEMES$"      0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_TRANSLATABLE_TEXT$"      0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_TREE_STATE"            0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_UPG_COL_NAME_CHANGES"      0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_VERSION$"              0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_WS_OPERATIONS"         0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_WS_PARAMETERS"         0 KB       0 rows
+. . exported "FLOWS_020100"."WWV_FLOW_WS_PROCESS_PARMS_MAP"      0 KB       0 rows
+. . exported "FLOWS_FILES"."WWV_FLOW_FILE_OBJECTS$"          0 KB       0 rows
+. . exported "LNT"."SUPPLIERACCOUNTSNO"                      0 KB       0 rows
+. . exported "OUTLN"."OL$"                                   0 KB       0 rows
+. . exported "OUTLN"."OL$HINTS"                              0 KB       0 rows
+. . exported "OUTLN"."OL$NODES"                              0 KB       0 rows
+. . exported "SURAJ"."BRANDSNO"                              0 KB       0 rows
+. . exported "SURAJ"."PRODUCT_BRAND"                         0 KB       0 rows
+. . exported "SURAJ"."PRODUCT_NAME"                          0 KB       0 rows
+. . exported "SURAJ"."SUPPLIERACCOUNTSNO"                    0 KB       0 rows
+. . exported "SURAJ"."SUPPLIERBRANDSNO"                      0 KB       0 rows
+. . exported "SURAJ"."SUPPLIERSNO"                           0 KB       0 rows
+. . exported "SYSTEM"."ACCOUNTDTSUPP1"                       0 KB       0 rows
+. . exported "SYSTEM"."DEF$_AQCALL"                          0 KB       0 rows
+. . exported "SYSTEM"."DEF$_AQERROR"                         0 KB       0 rows
+. . exported "SYSTEM"."DEF$_CALLDEST"                        0 KB       0 rows
+. . exported "SYSTEM"."DEF$_DEFAULTDEST"                     0 KB       0 rows
+. . exported "SYSTEM"."DEF$_DESTINATION"                     0 KB       0 rows
+. . exported "SYSTEM"."DEF$_ERROR"                           0 KB       0 rows
+. . exported "SYSTEM"."DEF$_LOB"                             0 KB       0 rows
+. . exported "SYSTEM"."DEF$_ORIGIN"                          0 KB       0 rows
+. . exported "SYSTEM"."DEF$_PROPAGATOR"                      0 KB       0 rows
+. . exported "SYSTEM"."DEF$_PUSHED_TRANSACTIONS"             0 KB       0 rows
+. . exported "SYSTEM"."DEF$_TEMP$LOB"                        0 KB       0 rows
+. . exported "SYSTEM"."PRODUCTDETAIL12"                      0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_AUDIT_COLUMN"                 0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_COLUMN_GROUP"                 0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_CONFLICT"                     0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_DDL"                          0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_EXCEPTIONS"                   0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_EXTENSION"                    0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_FLAVORS"                      0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_FLAVOR_OBJECTS"               0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_GENERATED"                    0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_GROUPED_COLUMN"               0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_INSTANTIATION_DDL"            0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_KEY_COLUMNS"                  0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_OBJECT_PARMS"                 0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_PARAMETER_COLUMN"             0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_PRIORITY"                     0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_PRIORITY_GROUP"               0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_REFRESH_TEMPLATES"            0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_REPCAT"                       0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_REPCATLOG"                    0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_REPCOLUMN"                    0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_REPGROUP_PRIVS"               0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_REPOBJECT"                    0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_REPPROP"                      0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_REPSCHEMA"                    0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_RESOLUTION"                   0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_RESOLUTION_STATISTICS"        0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_RESOL_STATS_CONTROL"          0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_RUNTIME_PARMS"                0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_SITES_NEW"                    0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_SITE_OBJECTS"                 0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_SNAPGROUP"                    0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_TEMPLATE_OBJECTS"             0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_TEMPLATE_PARMS"               0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_TEMPLATE_REFGROUPS"           0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_TEMPLATE_SITES"               0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_TEMPLATE_TARGETS"             0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_USER_AUTHORIZATIONS"          0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_USER_PARM_VALUES"             0 KB       0 rows
+. . exported "SYSTEM"."SQLPLUS_PRODUCT_PROFILE"              0 KB       0 rows
+. . exported "SYSTEM"."SUPPLIERDETAIL123"                    0 KB       0 rows
+. . exported "SYSTEM"."SUPPPRODINFO11"                       0 KB       0 rows
+. . exported "TSMSYS"."SRS$"                                 0 KB       0 rows
+Master table "LNT"."SYS_EXPORT_FULL_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for LNT.SYS_EXPORT_FULL_01 is:
+  C:\DFMS DATABASE\BACKUP.DMP
+Job "LNT"."SYS_EXPORT_FULL_01" successfully completed at 07:19:59
